@@ -17,16 +17,24 @@ The specific impact depends on the individual exploit being used, but generally,
 
 **3.Payload:** Once the attacker gains control of the target system, they may deploy a malicious payload, which can be malware, ransomware, or any other malicious software, to achieve their specific objectives, such as data theft, system control, or encryption for ransom.
 # Hands-On
+
 **Step1-** First we start are try hack me Blue Machine and get ip address of machine and then in our linux system check the vulnerabilities which we want to exploit by using nmap and ip address of our blue machine is 10.10.127.251
+
+
 
 ![image](https://github.com/bhavish95/Window_Hacking_Practice/assets/111994995/a62ea2ff-0f97-46e7-946f-eea62998d88d)
 ![image](https://github.com/bhavish95/Window_Hacking_Practice/assets/111994995/d03b80d1-4ba5-44b2-9463-bef753c383bc)
 
+
+
 **Step2-** Now we can check the permissions and port number of the machine by scanning with nmap command
+
 
 ![image](https://github.com/bhavish95/Window_Hacking_Practice/assets/111994995/37840c8b-2bd5-444e-af01-5395b29df6ad)
 
+
 **Step3-** Now we can check the tun0 ip address for setting the payload and Rhosts and Lhosts
+
 
 ![image](https://github.com/bhavish95/Window_Hacking_Practice/assets/111994995/b782eb11-cc48-4ca6-9555-248d7bb112b9)
 ![image](https://github.com/bhavish95/Window_Hacking_Practice/assets/111994995/18e61032-2488-4de8-a617-72b1cacc6457)
