@@ -6,9 +6,12 @@ This vulnerability allows remote attackers to execute arbitrary code on a target
 # smbvuln-ms17-054.nse (ShadowBrokers Exploits)
 The specific impact depends on the individual exploit being used, but generally, these exploits can allow attackers to gain unauthorized access to systems, execute malicious code, and potentially move laterally within a network.
 # Requirement To Perform Attack
-**1.Vulnerable System:** The target system must be running a vulnerable version of the Windows operating system with SMB version 1 (SMBv1) enabled. Specifically, this vulnerability affects Windows 7 and Windows Server 2008 R2 systems, although there have been variations of this exploit for other versions
+**1.Vulnerable System:** The target system must be running a vulnerable version of the Windows operating system with SMB version 1 (SMBv1) enabled. Specifically, this vulnerability affects Windows 7 and Windows Server 2008 R2 systems, although there have been variations of this exploit for other versions.
+
 **2.Network Access:** The attacker needs network access to the target machine over the SMB protocol. This can be achieved over a local network or, in some cases, over the internet if the vulnerable system is exposed.
+
 **3.EternalBlue Exploit:** The attacker typically uses a tool or script that leverages the EternalBlue exploit to send specially crafted packets to the target system's SMB service. This exploit takes advantage of the vulnerability in SMBv1 to execute malicious code remotely.
+
 **3.Payload:** Once the attacker gains control of the target system, they may deploy a malicious payload, which can be malware, ransomware, or any other malicious software, to achieve their specific objectives, such as data theft, system control, or encryption for ransom.
 # Hands-On
 **Step1-** First we start are try hack me Blue Machine and get ip address of machine and then in our linux system check the vulnerabilities which we want to exploit by using nmap and ip address of our blue machine is 10.10.127.251
