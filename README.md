@@ -1,6 +1,8 @@
 # Window_Hacking_Practice
 ![img](https://github.com/bhavish95/Window_Hacking_Practice/assets/111994995/565cdd79-1df7-4f68-a56a-439f5d60902a)
 
+
+
 # Objective - Get the access of windows 7 with exploitation of smb-vuln-ms17-010.nse or smbvuln-ms17-054.nse
 # SMB-vuln-ms17-010.nse (EternalBlue)
 This vulnerability allows remote attackers to execute arbitrary code on a target system without user interaction. In essence, it can lead to the complete compromise of a Windows machine if not patched.
